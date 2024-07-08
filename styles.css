@@ -1,0 +1,354 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background: url("images/photo entete/engineer-4925136_1920.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+}
+.debut{
+    
+    background-color: rgb(48, 48, 48);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 6%;
+
+}
+.debut img{
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+}
+.debut .dtext{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+header{
+    background: url("images/photo entete/tete.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+nav{
+    
+    background-color: rgba(0, 0, 0, 0.205);
+    height: 100vh;
+    
+    
+    
+}
+nav .tous{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+
+}
+nav .tous .logoEtLien{
+    display: flex;
+    flex-direction: row;   
+    gap: 60px;
+    align-items: center;
+}
+nav .tous .logoEtLien a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+nav .tous .logoEtLien a:hover{
+    color:rgb(247, 216, 42) ;
+}
+.logoEtLien p{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+nav img{
+    width: 30%;
+}
+.text{
+   
+   
+ 
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    margin-top: -50px;
+ 
+    
+}
+.text h1{
+    font-size: 4em;
+}
+.text p{
+    margin-top: -40px;
+}
+.text a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(247, 216, 42);
+    padding: 10px 30px 10px 30px;
+}
+.conteneur1{
+    margin-top: -19px;
+    background-color: white;
+    padding: 50px 150px 50px 150px;
+}
+.conteneur1 .cont1{
+    display: grid;
+    grid-template-columns: 50fr 50fr 50fr;
+    gap: 20px;
+   
+}
+.conteneur1 .cont1 .souscont1{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 20px;
+}
+
+.conteneur1 .cont1 .souscont1 img{
+    width: 15%;
+    height: 15%;
+    background-color: rgb(247, 216, 42);
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20PX;
+}
+.conteneur1 .cont1 .souscont1 img:hover{
+    background-color: black;
+}
+.conteneur1 h3{
+    text-align: center;
+}
+
+.conteneur2{
+    margin-top: -19px;
+    background-color: rgb(221, 220, 220);
+    padding: 80px 150px 50px 150px;
+    
+}
+.conteneur2 .cont2{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
+.conteneur2 div img{
+    width: 100%;
+}
+.conteneur2 .cont2 .souscont2 a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: rgb(247, 216, 42);
+    padding: 10px 10px 10px 10px;
+    width: 25%;
+    text-align: center;
+}
+.conteneur2 .cont2 .souscont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteneur3 .cont3{
+    display: grid;
+    
+    grid-template-columns:20fr 20fr 20fr 20fr ;
+}
+
+.conteneur3 .cont3 div img{
+    width: 100%;
+    
+}
+.conteneur3 .cont3 .souscont1{
+   background: url("images/photo section3/2865.jpg");
+   background-size: cover;
+   
+   height: 30vh;
+   
+       
+}
+.conteneur3 .cont3 .souscont1 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont1 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+    opacity: 1;
+    
+
+}
+
+.conteneur3 .cont3 .souscont2{
+    background: url("images/photo section3/338.jpg");
+    background-size: cover;
+        
+ }
+ .conteneur3 .cont3 .souscont2 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont2 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+
+ .conteneur3 .cont3 .souscont3{
+    background: url(" images/photo section3/400.jpg");
+    background-size: cover;
+        
+ }
+ .conteneur3 .cont3 .souscont3 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont3 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+ .conteneur3 .cont3 .souscont4{
+    background: url("images/photo section3/48219.jpg");
+    background-size: cover;
+        
+ }
+ .conteneur3 .cont3 .souscont4 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont4 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+
+ .conteneur3 .cont3 .souscont5{
+    background: url("images/photo section3/57.jpg");
+    background-size: cover;
+    height: 30vh;
+        
+ }
+ .conteneur3 .cont3 .souscont5 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont5 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+
+
+
+ .conteneur3 .cont3 .souscont7{
+    background: url("images/photo section3/architecture-2256490_1920.jpg");
+    background-size: cover;
+        
+ }
+ .conteneur3 .cont3 .souscont7 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont7 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+
+ .conteneur3 .cont3 .souscont8{
+    background: url("images/photo section3/modern-construction-buildings.jpg");
+    background-size: cover;
+        
+ }
+ .conteneur3 .cont3 .souscont8 div{
+    background-color: rgba(0, 0, 0, 0.432);
+   margin-top: -16px;
+    height: 100%;
+}
+.conteneur3 .cont3 .souscont8 div:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+ .conteneur3 .cont3 p{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: -160px;
+ }
+ 
+
+ .conteneur4{
+    
+    background-color: white;
+    padding: 50px 150px 50px 150px;
+}
+.conteneur4 .cont1{
+    display: grid;
+    grid-template-columns: 50fr 50fr 50fr;
+    gap: 20px;
+}
+.conteneur4 .cont1 img{
+    width: 100%;
+}
+.conteneur4 h3{
+    text-align: center;
+}
+.conteneur4 a{
+
+    position: relative;
+    left: 50%;
+    top: 10px;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color:  rgb(247, 216, 42);;
+    padding: 10px 10px 10px 10px;
+
+    
+}
+
+footer{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 50px 150px 50px 150px;
+}
+footer .cont1{
+    display: grid;
+    grid-template-columns: 11fr 15fr 15fr 15fr;
+    gap: 20px;
+}
+
+footer .cont1 .souscont1 p{
+    color: rgb(167, 167, 167);
+}
+footer .cont1 .souscont2 p{
+    color:  rgb(247, 216, 42);;
+}
+footer .cont1 .souscont3 p{
+    color: rgb(167, 167, 167);
+}
